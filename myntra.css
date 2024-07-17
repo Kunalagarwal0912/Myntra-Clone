@@ -110,6 +110,61 @@ a .wishlist {
     color: #232222;
      
  }
- 
+
+ /*Banner Image CSS*/
+.mainbnimg{
+    width: 100%;
+    margin: 40px 0;
+}
+
+h4{
+    color: #3e4152;
+    letter-spacing: .15em;
+    max-height: 5em;
+    font-weight: 700;
+    padding: 20px 10px;
+}
 
 
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+.offer_image .offer_category{
+    width: 247px;
+}
+
+.Footer_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #FAFBFC;
+    padding: 30pX 0 40pX 0px ;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column a{
+    text-decoration: none;
+    color: #696b79 ;
+    font: size 15px;
+    padding: 5px; 
+}
+.footer_column a h5{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+
+.copyright{
+    padding: 15px;
+    text-align: end;
+    color:#94969f ;
+}
